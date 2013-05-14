@@ -1,0 +1,42 @@
+* Library Information
+ Readme.org --- Ido commands for apt-utils
+
+ - Filename :: [[file:apt-utils-ido.el][apt-utils-ido.el]]
+ - Description :: Ido functions for apt-utils
+ - Author :: Joe Bloggs <vapniks@yahoo.com>
+ - Maintainer :: Joe Bloggs <vapniks@yahoo.com>
+ - Copyleft (Ↄ) 2013, Joe Bloggs, all rites reversed.
+ - Created :: 2008
+ - Version :: 0.1
+ - Last-Updated :: 2013-05-14 03:59:52
+ -           By :: Joe Bloggs
+ - URL :: https://github.com/vapniks/apt-utils-ido
+ - Keywords :: convenience
+ - Compatibility :: GNU Emacs 24.3.1
+ - Package-Requires :: ((apt-utils "1.212"))
+
+* Possible Dependencies
+
+apt-utils ido
+
+* Commentary: 
+Bitcoin donations gratefully accepted :: 14zv8HBJVqHRFRnXXaiLbUippnnYvg3iYv
+
+This library provides commands for accessing apt-utils using ido.
+This means you don't need to remember so many keybindings.
+* Keybindings
+- Press "S" to select a type of package search
+- Press "b" to select webpage to browse
+- Press "v" to select type of file to view
+* Commands
+- `apt-utils-ido-select-search'
+  Use ido to select type of package search to do in apt-utils mode
+- `apt-utils-ido-select-view'
+  Use ido to select type of file to view in apt-utils mode
+- `apt-utils-ido-select-browse'
+  Use ido to select type of webpage to browse in apt-utils mode
+* Installation
+
+ - If you have [[http://www.marmalade-repo.org/][marmalade-repo.org]], this apt-utils-ido is part of the emacs packages you can install.  Just type M-x package-install apt-utils-ido marmalade 
+ - Otherwise download the library from here Lisp:apt-utils-ido, and put it in a directory in the emacs load path, like ~/.emacs.d
+ - Add (require 'apt-utils-ido) in your ~/.emacs file
